@@ -36,8 +36,8 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation - Centered and Floating */}
-          <nav className="hidden xl:flex flex-1 justify-center">
-            <div className="inline-flex items-center gap-6 bg-white/98 backdrop-blur-lg rounded-full shadow-2xl px-8 py-4 border border-gray-100/50">
+          <nav className="hidden xl:flex flex-1 justify-center m-16">
+            <div className="inline-flex items-center gap-6 bg-white/98 backdrop-blur-lg rounded-full shadow-2xl px-8 py-4 border border-gray-100/50 h-[50px]">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
